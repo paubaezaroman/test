@@ -4,7 +4,7 @@
     @Login_HUDL_01
     Scenario: 01-Successful login to HUDL
       Given I go to the main website application
-      When I click on login and enter "pau.baezaroman@gmail.com" and "pauUK001!"
+      When I click on login and enter "pau.baezaroman@gmail.com" and "correctPassword"
       Then I am logged in to Hudl Home Page
 
     @Login_HUDL_02
