@@ -28,6 +28,8 @@ This is a very basic framework for HUDL company.
 
 2. To run tests:
 
+- Amend the line 7 of this file "test/src/main/resources/features/Login.feature" with the correct user email and password
+
 - Run this Runner class: src/main/java/com/test/TestRunner.java
 
 or
