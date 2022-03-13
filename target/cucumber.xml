@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="33.066">
+    <testcase classname="Login Functionality for HUDL - Test Automation" name="01-Successful login to HUDL" time="16.382">
+        <system-out>
+            <![CDATA[Given I go to the main website application..................................passed
+When I click on login and enter "pau.baezaroman@gmail.com" and "pauUK001!"..passed
+Then I am logged in to Hudl Home Page.......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality for HUDL - Test Automation" name="02-UnSuccessful login to HUDL due to user not found" time="8.176">
+        <system-out>
+            <![CDATA[Given I go to the main website application..................................passed
+When I click on login and enter "testestesttestestest@gmail.com" and "testesttest".passed
+Then I am prompted with an error............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Login Functionality for HUDL - Test Automation" name="03-UnSuccessful login to HUDL due to user and password not sent" time="8.141">
+        <system-out>
+            <![CDATA[Given I go to the main website application..................................passed
+When I click on login and enter "" and ""...................................passed
+Then I am prompted with an error............................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
